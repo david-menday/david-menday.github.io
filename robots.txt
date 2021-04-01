@@ -1,0 +1,14 @@
+User-agent: *
+
+Allow: index.html
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /trafficbasedsspsitemap.xml
+Disallow: trafficbasedsspsitemap.xml
+Disallow: /*/*
