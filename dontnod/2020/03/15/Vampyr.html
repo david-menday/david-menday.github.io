@@ -114,9 +114,7 @@ Vampire: The Masquerade – Bloodlines.</p>
   </div>
 
 
-  <!-- Footer -->
-
-<hr>
+  <hr>
 
 <footer>
   <div class="container">
@@ -124,8 +122,9 @@ Vampire: The Masquerade – Bloodlines.</p>
       <div class="col-lg-8 col-md-10 mx-auto">
         <ul class="list-inline text-center">
           
+          
           <li class="list-inline-item">
-            <a href="mailto:%64%61%76%69%64@%6D%65%6E%64%61%79.%73%65">
+            <a id="contact-email" rel="nofollow" data-u="david" data-d="menday.se">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
@@ -133,6 +132,7 @@ Vampire: The Masquerade – Bloodlines.</p>
             </a>
           </li>
           
+
           
           <li class="list-inline-item">
             <a href="https://twitter.com/David_Menday">
@@ -143,8 +143,7 @@ Vampire: The Masquerade – Bloodlines.</p>
             </a>
           </li>
           
-          
-          
+
           
           <li class="list-inline-item">
             <a href="https://github.com/david-menday">
@@ -155,7 +154,6 @@ Vampire: The Masquerade – Bloodlines.</p>
             </a>
           </li>
           
-          
         </ul>
         <p class="copyright text-muted">Copyright &copy;  2025</p>
       </div>
@@ -163,14 +161,23 @@ Vampire: The Masquerade – Bloodlines.</p>
   </div>
 </footer>
 
+<script>
+  (function(){
+    var a = document.getElementById('contact-email');
+    if (!a) return;
+    var u = a.getAttribute('data-u');
+    var d = a.getAttribute('data-d');
+    if (u && d) {
+      a.setAttribute('href', 'mailto:' + u + '@' + d);
+    }
+  })();
+</script>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
-
 <script src="/assets/scripts.js"></script>
-
-
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
