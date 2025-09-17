@@ -1,0 +1,17 @@
+---
+layout: post
+title: Polli - The sweetest dog
+date: 2019-09-15 20:45:37 +02:00
+categories: dogs
+tags:
+ - german shepherd
+---
+
+I miss this dog 
+
+     [p-oh-ly]
+
+{% include video.html src="/videos/polli.m4v" width="640" height="480" %}
+
+
+	

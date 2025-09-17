@@ -1,0 +1,13 @@
+---
+layout: post
+title: Islay whisky trip
+date: 2011-09-30 20:45:37 +0200
+categories:
+ - travel
+tags:
+ - whisky
+---
+
+This was a fun trip
+
+{% include video.html src="/videos/bowmore.mp4" width="1024" height="576" %}

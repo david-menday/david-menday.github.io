@@ -1,0 +1,16 @@
+---
+layout: post
+title: Genshin Impact
+date: 2021-02-18 20:58:17 +02:00
+background: /images/Genshin-Impact-Anniversary.avif
+categories: miHoYo tech otakus save the world
+tags: gaming
+---
+
+
+Been playing Genshin Impact.
+Visuals a blend of anime and Zelda Breath of the Wild.
+But surprisingly fun.
+
+
+<img src="/images/genshin.jpg" style="width:100%; height:auto;">

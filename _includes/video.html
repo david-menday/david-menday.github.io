@@ -1,0 +1,8 @@
+<video
+  {% if include.width %}width="{{ include.width }}"{% endif %}
+  {% if include.height %}height="{{ include.height }}"{% endif %}
+  controls preload="metadata" playsinline style="max-width:100%;height:auto;">
+  <source src="{{ include.src | relative_url }}" type="{{ include.type | default: 'video/mp4' }}">
+  Sorry, your browser doesn't support embedded video.
+  <a href="{{ include.src | relative_url }}">Download the video</a>.
+</video>
