@@ -1,0 +1,11 @@
+---
+layout: post
+title: Replaced
+date: 2026-05-28 00:02:26 +0200
+background: /images/Replaced.jpg
+tags: gaming
+---
+
+I just started playing Replaced, a pixel-art 2.5D game that is stunningly beautiful. The way it uses lighting, depth, and animation makes the world feel alive, like a cinematic reel that makes you marvel at how pixelated graphics can be so visually striking.
+ 
+It is marred a bit by clumsy controls, though. Movement and combat do not always feel as elegant as the world looks. Still, the presentation is so strong that it left an impression on me.
