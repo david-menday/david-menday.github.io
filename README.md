@@ -45,3 +45,13 @@ When a draft is ready to publish, move it from `_drafts/` to `_posts/` and renam
 Push changes to the repository's GitHub Pages branch. GitHub Pages builds the site using the `github-pages` gem configured in `Gemfile`.
 
 Generated local build files such as `_site/`, `.jekyll-cache/`, `.sass-cache/`, `.bundle/`, and `vendor/` are ignored by Git.
+
+## Local development (Codespaces / dev container)
+
+Open the repo in a Codespace or the VS Code dev container. The site is served automatically on port 4000 (with livereload). To restart it manually, run:
+
+```
+bundle exec jekyll serve --livereload --host 0.0.0.0
+```
+
+The `Gemfile` pins local development to the `github-pages` gem set used for the hosted build.
