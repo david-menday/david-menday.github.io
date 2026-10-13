@@ -54,4 +54,4 @@ Open the repo in a Codespace or the VS Code dev container. The site is served au
 bundle exec jekyll serve --livereload --host 0.0.0.0
 ```
 
-The Gemfile is only used locally; GitHub Pages builds with its own gem set.
+The `Gemfile` pins local development to the `github-pages` gem set used for the hosted build.
