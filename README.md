@@ -48,7 +48,7 @@ Generated local build files such as `_site/`, `.jekyll-cache/`, `.sass-cache/`, 
 
 ## Local development (Codespaces / dev container)
 
-Open the repo in a Codespace or the VS Code dev container, then run:
+Open the repo in a Codespace or the VS Code dev container. The site is served automatically on port 4000 (with livereload). To restart it manually, run:
 
 ```
 bundle exec jekyll serve --livereload --host 0.0.0.0
