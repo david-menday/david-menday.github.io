@@ -2,7 +2,7 @@
   "name": "Jekyll (GitHub Pages)",
   "image": "mcr.microsoft.com/devcontainers/ruby:3.3",
   "postCreateCommand": "bundle install",
-  "postAttachCommand": "bundle exec jekyll serve --livereload --host 0.0.0.0 --force_polling",
+  "postStartCommand": "nohup bundle exec jekyll serve --livereload --host 0.0.0.0 --force_polling > /tmp/jekyll.log 2>&1 &",
   "forwardPorts": [4000, 35729],
   "portsAttributes": {
     "4000": { "label": "Jekyll", "onAutoForward": "openPreview" }
